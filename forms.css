@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+background: linear-gradient(68.15deg, #000000 16.62%, #584d54 85.61%);
+}
+
+#titulo{
+    font-family: 'Montserrat', sans-serif;
+    color: #eae0e8;
+    margin-left: 15%;
+}
+
+#subtitulo {
+    font-family: 'Montserrat', sans-serif;
+    color: #eae0e8;
+    margin-left: 26%;
+    font-size: 13px;
+}
+
+fieldset {
+    border: 0;
+}
+
+body {
+    background-color: #fdecfd;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    color: #eae0e8;
+    margin-left: 30%;
+    margin-top: 3%;
+    justify-content: center;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.8em;
+    color: #eae0e8;
+    display: block;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #ac329b;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #eae0e8;
+}
+
+.botao {
+    font-size: 1.2em;
+    background: #716f71;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    top: 90%;
+    left: 60%;
+    margin-right: -50%;
+}
+
+.botao:hover {
+    background: #4e4d4e;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+#check{
+    display: inline-block;
+}
